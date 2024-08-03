@@ -9,9 +9,9 @@ const handleShow = () => setShow(true);
  // ---------------------------------------
 
  const [name, setName] = useState(el.name);
- const [imgURL, setImgURL] = useState(el.imgURL);
- const [price, setPrice] = useState(el.price);
- const [discount, setDiscount] = useState(el.discount);
+ const [imgURL, setImgURL] = useState(el.imgUrl);
+ const [price, setPrice] = useState(el.Price);
+ const [discount, setDiscount] = useState(el.Discount);
 //---------------------------------------------
 const handleSubmit = (e) => {
   e.preventDefault();
